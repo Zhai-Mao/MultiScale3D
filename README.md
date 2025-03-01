@@ -1,1 +1,1 @@
-# MultiScale3D-A-Multi-Scale-Fusion-Algorithm-for-Action-Recognition
+# MultiScale3D-A Multi_Scale Fusion Algorithm for Action Recognition
