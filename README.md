@@ -4,4 +4,7 @@ The code is based on Pyskl
 
 ## Dataset
 The pkl files of our keypoint datasets are from pyskl. You can also generate keypoint heatmaps with YOLO-Pose and stack them into pkl files, but we suggest first training YOLO-Pose on your video dataset, which requires labeling. While YOLO-Pose matches HRNet in close-range recognition, its generalization drops significantly in long-range cases. However, this isn't a big issue since most figures in public datasets are in close range.
+pkl((https://github.com/kennymckormick/pyskl/blob/main/tools/data/README.md))
+
+## Getting Started
 
