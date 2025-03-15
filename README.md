@@ -8,3 +8,18 @@ pkl((https://github.com/kennymckormick/pyskl/blob/main/tools/data/README.md))
 
 ## Getting Started
 
+To perform keypoint heatmap stacking with YOLO-Pose and convert the result to a pickle file, run the following command after adjusting the paths for the weight file, config file, video_list file, and output directory in the script.
+```python
+python Yolov8_2D_Skeleton.py
+```
+The training and testing commands are as follows:
+```shell
+# Training
+bash tools/dist_train.sh {config_name} {num_gpus} {other_options}
+# Testing
+bash tools/dist_test.sh {config_name} {checkpoint} {num_gpus} --out {output_file} --eval top_k_accuracy mean_class_accuracy
+```
+For the NTU dataset, the command to merge the predicted results and get the (J+L) prediction accuracy is as follows:
+```python
+python ensemble.py
+```
