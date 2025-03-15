@@ -1,5 +1,5 @@
 # MultiScale3D：A MultiScale Fusion Algorithm for Action Recognition
-The code is based on Pyskl
+The code is based on Pyskl(https://github.com/kennymckormick/pyskl/tree/main)
 ![](./img/structure.jpg)
 
 ## Dataset
